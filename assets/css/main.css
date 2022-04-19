@@ -2505,6 +2505,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		border-radius: 5px;
 	}
 
 		input[type="submit"]:hover, input[type="submit"]:active,
@@ -3149,6 +3150,7 @@ input, select, textarea {
 				line-height: 1.65em;
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
+				border-radius: 5px;
 			}
 
 			#header .logo:hover strong {
