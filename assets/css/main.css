@@ -2969,13 +2969,12 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				padding: 2em 3em 0.1em 3em ;
-				width: 40%;
+				width: 50%;
 			}
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
 					max-width: 100%;
-					width: 65em;
 				}
 
 			.spotlights > section:nth-child(2n) {
