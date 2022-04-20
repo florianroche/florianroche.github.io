@@ -2488,10 +2488,10 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: rgba(212, 212, 255, 0.2);
+		background-color: rgba(212, 212, 255, 0.4);
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
+		box-shadow: inset 0 0 0 0px #ffffff;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
@@ -2506,6 +2506,8 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 		border-radius: 5px;
+		-webkit-transform: translateZ(0);
+		box-shadow: 0 19px 30px 0 rgba(0,0,0,0.03), 0 4px 9px 0 rgba(0,0,0,0.02);
 	}
 
 		input[type="submit"]:hover, input[type="submit"]:active,
@@ -2517,8 +2519,10 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #FEA82F;
+			color: #FEA82F;
+			-webkit-transform: translateZ(0);
+			box-shadow: 0 19px 30px 0 rgba(0,0,0,0.06), 0 4px 9px 0 rgba(0,0,0,0.02);
 		}
 
 		input[type="submit"]:active,
@@ -2527,8 +2531,10 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(155, 241, 255, 0.1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
+			box-shadow: inset 0 0 0 2px #FEA82F;
+			color: #FEA82F;
+			-webkit-transform: translateZ(0);
+			box-shadow: 0 19px 30px 0 rgba(0,0,0,0.06), 0 4px 9px 0 rgba(0,0,0,0.02);
 		}
 
 		input[type="submit"].icon:before,
@@ -3151,14 +3157,20 @@ input, select, textarea {
 				margin-right: 0.325em;
 				padding: 0 0.125em 0 0.375em;
 				border-radius: 5px;
+				-webkit-transform: translateZ(0);
+				box-shadow: 0 19px 30px 0 rgba(0,0,0,0.03), 0 4px 9px 0 rgba(0,0,0,0.03);
 			}
 
 			#header .logo:hover strong {
 				background-color: #FEA82F;
+				-webkit-transform: translateZ(0);
+				box-shadow: 0 19px 30px 0 rgba(0,0,0,0.06), 0 4px 9px 0 rgba(0,0,0,0.03);
 			}
 
 			#header .logo:active strong {
 				background-color: #ffffff;
+				-webkit-transform: translateZ(0);
+				box-shadow: 0 19px 30px 0 rgba(0,0,0,0.06), 0 4px 9px 0 rgba(0,0,0,0.03);
 			}
 
 		#header nav {
